@@ -31,8 +31,6 @@ inquirer
   })
   .catch(err => console.log(err));
 
-
-// Helper
 const checkForLang = (input, output) => {
   return languageFiles.includes(`${input.toLowerCase()}.languages.json`) && allLanguages[output.toLowerCase()];
 }

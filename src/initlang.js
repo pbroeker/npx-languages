@@ -30,15 +30,3 @@ const fs = require('fs');
         });
     })
   })
-
- 
-
-
-    
-  // const jsonData = JSON.stringify(languages, null, 2);
-  // fs.writeFileSync('../client/src/lang/src/languages.json', jsonData);
-  // languages.forEach(element => {
-  //   const jsonElement = JSON.stringify(element, null, 2);
-  //   fs.writeFileSync(`../client/src/lang/src/${element.name}-languages.json`, jsonElement);
-  // });
-
